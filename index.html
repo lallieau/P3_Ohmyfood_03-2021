@@ -9,11 +9,12 @@
   <body>
     <header>
       <img class="header-logo" src="" alt="logo ohmyfood" />
-      <div class="location">
-        <i class="location__icon"></i>
-        <p class="location__text">Paris, Belleville</p>
-      </div>
     </header>
+
+    <section class="location">
+      <i class="location__icon"></i>
+      <p class="location__text">Paris, Belleville</p>
+    </section>
 
     <section class="explore">
       <h1 class="explore__title">Réservez le menu qui vous convient</h1>
@@ -56,11 +57,15 @@
         />
         <span class="partners-list-card__tag">Nouveau</span>
         <div class="partners-list-card__content">
-          <h3 class="partners-list-card-content__name">La palette du goût</h3>
-          <p class="partners-list-card-content__location">Ménilmontant</p>
-          <button class="partners-list-content__favorite-button">
-            <i class="partners-list-card-content-favorite-button__icon"></i>
-          </button>
+          <div class="partners-list-card-content__start">
+            <h3>La palette du goût</h3>
+            <p>Ménilmontant</p>
+          </div>
+          <div class="partners-list-card-content__end">
+            <button class="partners-list-content__favorite-button">
+              <i class="partners-list-card-content-favorite-button__icon"></i>
+            </button>
+          </div>
         </div>
       </a>
 
@@ -72,11 +77,15 @@
         />
         <span class="partners-list-card__tag">Nouveau</span>
         <div class="partners-list-card__content">
-          <h3 class="partners-list-card-content__name">La note enchantée</h3>
-          <p class="partners-list-card-content__location">Charonne</p>
-          <button class="partners-list-content__favorite-button">
-            <i class="partners-list-card-content-favorite-button__icon"></i>
-          </button>
+          <div class="partners-list-card-content__start">
+            <h3>La note enchantée</h3>
+            <p>Charonne</p>
+          </div>
+          <div class="partners-list-card-content__end">
+            <button class="partners-list-content__favorite-button">
+              <i class="partners-list-card-content-favorite-button__icon"></i>
+            </button>
+          </div>
         </div>
       </a>
 
@@ -87,11 +96,15 @@
           alt="photo de présentation d'un plat du restaurant"
         />
         <div class="partners-list-card__content">
-          <h3 class="partners-list-card-content__name">À la française</h3>
-          <p class="partners-list-card-content__location">Cité Rouge</p>
-          <button class="partners-list-content__favorite-button">
-            <i class="partners-list-card-content-favorite-button__icon"></i>
-          </button>
+          <div class="partners-list-card-content__start">
+            <h3>À la française</h3>
+            <p>Cité Rouge</p>
+          </div>
+          <div class="partners-list-card-content__end">
+            <button class="partners-list-content__favorite-button">
+              <i class="partners-list-card-content-favorite-button__icon"></i>
+            </button>
+          </div>
         </div>
       </a>
 
@@ -102,19 +115,24 @@
           alt="photo de présentation d'un plat du restaurant"
         />
         <div class="partners-list-card__content">
-          <h3 class="partners-list-card-content__name">Le délice des sens</h3>
-          <p class="partners-list-card-content__location">Folie-Méricourt</p>
-          <button class="partners-list-content__favorite-button">
-            <i class="partners-list-card-content-favorite-button__icon"></i>
-          </button>
+          <div class="partners-list-card-content__start">
+            <h3>Le délice des sens</h3>
+            <p>Folie-Méricourt</p>
+          </div>
+          <div class="partners-list-card-content__end">
+            <button class="partners-list-content__favorite-button">
+              <i class="partners-list-card-content-favorite-button__icon"></i>
+            </button>
+          </div>
         </div>
       </a>
     </section>
 
     <footer>
-      <img class="footer-logo" src="" alt="logo ohmyfood" />
-
       <div class="footer-nav">
+        <a href="index.html" class="footer-nav__link footer-nav-link--font"
+          >Ohmyfood</a
+        >
         <a href="" class="footer-nav__link">
           <i class="footer-nav-link__icon"></i>
           Proposer un restaurant
