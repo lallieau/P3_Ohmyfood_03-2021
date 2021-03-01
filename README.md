@@ -14,6 +14,7 @@ Lien pour visualiser le projet:
 https://lallieau.github.io/P3_Ohmyfood/
 
 Contenu :
+
 Vous retrouverez dans ce projet une home page présentant l'application et une liste de différents restaurants partenaires. 
 Ces restaurants sont présentés sous forme de carte. 
 Ensuite on retrouvera à chaque restaurants une page dédiée avec le menu du restaurant.
