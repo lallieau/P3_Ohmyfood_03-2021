@@ -1,0 +1,19 @@
+{
+  "name": "p3_ohmyfood",
+  "version": "1.0.0",
+  "description": "Début du projet : mars 2021",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lallieau/P3_Ohmyfood.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lallieau/P3_Ohmyfood/issues"
+  },
+  "homepage": "https://github.com/lallieau/P3_Ohmyfood#readme"
+}
