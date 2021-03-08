@@ -1,0 +1,9 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
+.explore__button, .menu__order-button {
+    border-radius: 20px;
+    background-color: variables.$gradient-color;
+    padding: variables.$normal-padding;
+    width: 50%;
+}

@@ -1,0 +1,5 @@
+@use '../utils/variables';
+
+.partners-list{
+    background-color: variables.$section-background;
+}

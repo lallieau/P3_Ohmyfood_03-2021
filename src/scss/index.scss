@@ -1,1 +1,6 @@
-@use 'utils/variables.scss';
+@use 'utils/variables';
+@use 'utils/mixins';
+@use 'components/buttons';
+@use 'pages/homepage';
+
+@import '/node_modules/normalize.css/normalize.css';
