@@ -10,8 +10,11 @@ $gradient-color: linear-gradient(140deg, rgba(255,121,218,1) 0%, rgba(147,86,220
 $footer-background: #2C2C2C;
 $section-background: #ECECEC;
 
+$basic-text-color: #0000;
+$light-text-color: #ffff;
+
 $text-family: 'Roboto', sans-serif;
-$tall-title-family: 'Shrikhand', cursive;
+$title-family: 'Shrikhand', cursive;
 
 $title-weight: 500;
 $text-weight: 300;
@@ -20,8 +23,13 @@ $tall-title-size: 1.5rem;
 $title-size: 1.25rem;
 $text-size: 1rem;
 
+$text-line-height: 1.5rem;
+$title-line-height: 2rem;
+
 $normal-padding: 10px;
 $normal-margin: 15px;
+
+$footer-padding: 20px;
 
 
 

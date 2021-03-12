@@ -1,5 +1,36 @@
 @use '../utils/variables';
 
+.location{
+    display: flex;
+    justify-content: center;
+}
+
+.explore{
+    background-color: variables.$section-background;
+    padding: variables.$normal-padding;
+    text-align: center;
+}
+
 .partners-list{
     background-color: variables.$section-background;
+    padding: variables.$normal-padding;
+}
+
+.footer-nav{
+    background-color: variables.$footer-background;
+    display: flex;
+    flex-direction: column;
+    padding: variables.$footer-padding;
+
+    .footer-nav__link{
+        color: variables.$light-text-color;
+        font-weight: variables.$text-weight;
+        line-height: variables.$text-line-height;
+        font-size: variables.$text-size;
+    }
+
+    .footer-nav__link:first-child{
+        font-family: variables.$title-family;
+        line-height: variables.$title-line-height;
+    }
 }

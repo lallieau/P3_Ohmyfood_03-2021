@@ -1,0 +1,12 @@
+@use '../utils/variables';
+
+body{
+    font-family: variables.$text-family;
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+a{
+    text-decoration: none;
+}
