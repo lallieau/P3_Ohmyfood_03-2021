@@ -1,0 +1,33 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+.service-usage__step{
+    display: flex;
+    margin: $normal-margin;
+    align-items: center;
+}
+
+.service-usage-step__content{
+    display: flex;
+    align-items: center;
+    background-color: $section-background;
+    width: 100%;
+    padding: $service-padding;
+    border-radius: $service-card-border;
+    
+    .service-usage-step-content__icon{
+        width: $icon-size-medium;
+    }
+}
+
+.service-usage-step__number{
+    background-color: $primary-color;
+    width: 20px;
+    border-radius: 100px;
+    padding: 5px;
+    text-align: center;
+    color: $white-color;
+
+    position: absolute;
+    left: 10px;
+}

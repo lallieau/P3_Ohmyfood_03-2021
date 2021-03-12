@@ -4,7 +4,7 @@
   "description": "Début du projet : mars 2021",
   "main": "index.js",
   "scripts": {
-    "sass": "sass --watch ./src/scss/index.scss:./dist/style.css --style compressed"
+    "sass": "sass --watch ./src/scss/index.scss:./dist/styles.css"
   },
   "repository": {
     "type": "git",

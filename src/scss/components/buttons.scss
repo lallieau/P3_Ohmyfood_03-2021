@@ -1,8 +1,8 @@
-@use '../utils/variables';
-@use '../utils/mixins';
+@use '../utils/variables' as *;
 
 .explore__button, .menu__order-button {
     border-radius: 20px;
-    background-color: variables.$gradient-color;
-    padding: variables.$normal-padding;
+    color: $white-color;
+    background: $gradient-color;
+    padding: $normal-padding;
 }

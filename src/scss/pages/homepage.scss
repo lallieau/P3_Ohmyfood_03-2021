@@ -1,18 +1,8 @@
-@use '../utils/variables';
+@use '../layout/partners-list' as *;
+@use '../layout/explore' as *;
+@use '../layout/location' as *;
+@use '../layout/service-usage' as *;
 
-.location{
-    display: flex;
-    justify-content: center;
-    background-color: variables.$location-background;
-}
 
-.explore{
-    background-color: variables.$section-background;
-    padding: variables.$normal-padding;
-    text-align: center;
-}
 
-.partners-list{
-    background-color: variables.$section-background;
-    padding: variables.$normal-padding;
-}
+

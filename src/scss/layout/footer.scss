@@ -1,20 +1,24 @@
-@use '../utils/variables';
+@use '../utils/variables' as *;
 
 .footer-nav{
-    background-color: variables.$footer-background;
+    background-color: $footer-background;
     display: flex;
     flex-direction: column;
-    padding: variables.$footer-padding;
+    padding: $footer-padding;
 
     .footer-nav__link{
-        color: variables.$light-text-color;
-        font-weight: variables.$text-weight;
-        line-height: variables.$text-line-height;
-        font-size: variables.$text-size;
+        color: $light-text-color;
+        font-weight: $text-weight;
+        line-height: $text-line-height;
+        font-size: $text-size;
+
+        .footer-nav-link__icon{
+            width: $icon-size-small;
+        }
     }
 
     .footer-nav__link:first-child{
-        font-family: variables.$title-family;
-        line-height: variables.$title-line-height;
+        font-family: $title-family;
+        line-height: $title-line-height;
     }
 }

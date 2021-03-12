@@ -1,14 +1,11 @@
-@use 'utils/variables';
-@use 'utils/mixins';
+@use 'base/base';
 
 @use 'components/buttons';
 @use 'components/partner-card';
-
-@use 'pages/homepage';
-
-@use 'base/base';
+@use 'components/service-usage';
 
 @use 'layout/footer';
 @use 'layout/header';
 
-@import '/node_modules/normalize.css/normalize.css';
+@use 'pages/homepage';
+

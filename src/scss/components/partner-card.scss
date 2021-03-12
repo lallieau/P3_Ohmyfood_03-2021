@@ -1,20 +1,51 @@
-@use '../utils/variables';
-@use '../utils/mixins';
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
 
 .partners-list__card{
-    background-color: variables.$white-color;
-
-    @include mixins.partner-card-border;
+    background-color: $white-color;
+    margin: $normal-margin;
+    border-radius: $partner-card-border;
 
 }
 .partners-list-card__img{
     width: 100%;
 
     .partners-list-card-img--image-size{
-        @include mixins.partner-card-border-top;
+        @include partner-card-border-top;
         width: 100%;
         height: 200px;
         object-fit: cover;
-        object-position: center bottom;
+        object-position: 50% 60%;
+    }
+
+    .partners-list-card-img__tag{
+        position: absolute;
+        right: 10px;
+        margin: $normal-margin;
+        background-color: $third-color;
+        color: $third-dark-color;
+
+        @include tag-padding;
+    }
+}
+
+.partners-list-card__content{
+    display: flex;
+    padding: $normal-padding;
+    justify-content: space-between;
+
+
+    .partners-list-card-content-favorite-button__icon{
+        width: $icon-size-tall;
+    }
+}
+
+.partners-list-card-content__text{
+    .partners-list-card-content-text__name, .partners-list-card-content-text__city{
+        line-height: $text-line-height;
+        }
+
+    .partners-list-card-content-text__city{
+        font-weight: $text-weight;
     }
 }

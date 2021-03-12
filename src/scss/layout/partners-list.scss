@@ -1,0 +1,12 @@
+@use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+.partners-list{
+    background-color: $section-background;
+
+    @include section-padding;
+
+    .partners-list__title{
+        margin: $normal-margin;
+    }
+}

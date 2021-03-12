@@ -1,0 +1,11 @@
+@mixin partner-card-border-top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+@mixin tag-padding{
+    padding: 5px 10px;
+}
+
+@mixin section-padding{
+    padding: 30px 0 30px;
+}
