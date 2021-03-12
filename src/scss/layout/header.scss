@@ -1,0 +1,11 @@
+@use '../utils/variables';
+
+header{
+    display: flex;
+    justify-content: center;
+    padding: variables.$normal-padding;
+
+    .header-logo{
+        width: variables.$logo-size;
+    }
+}

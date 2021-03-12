@@ -1,0 +1,7 @@
+@mixin partner-card-border-top {
+    border-radius: 10px 10px 0px 0px;
+}
+
+@mixin partner-card-border {
+    border-radius: 10px;
+}

@@ -1,3 +1,20 @@
+@use '../utils/variables';
+@use '../utils/mixins';
+
 .partners-list__card{
-    border-radius: 10px;
+    background-color: variables.$white-color;
+
+    @include mixins.partner-card-border;
+
+}
+.partners-list-card__img{
+    width: 100%;
+
+    .partners-list-card-img--image-size{
+        @include mixins.partner-card-border-top;
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+        object-position: center bottom;
+    }
 }

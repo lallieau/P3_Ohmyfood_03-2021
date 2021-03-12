@@ -2,6 +2,8 @@ $primary-color: #9356DC;
 $secondary-color: #FF79DA;
 $third-color: #99E2D0;
 
+$white-color: #fff;
+
 $primary-light-color: lighten($primary-color, 20%);
 $third-dark-color: darken($third-color, 80%);
 
@@ -9,6 +11,7 @@ $gradient-color: linear-gradient(140deg, rgba(255,121,218,1) 0%, rgba(147,86,220
 
 $footer-background: #2C2C2C;
 $section-background: #ECECEC;
+$location-background: darken($section-background, 5%);
 
 $basic-text-color: #0000;
 $light-text-color: #ffff;
@@ -30,6 +33,8 @@ $normal-padding: 10px;
 $normal-margin: 15px;
 
 $footer-padding: 20px;
+
+$logo-size: 150px;
 
 
 
