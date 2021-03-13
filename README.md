@@ -33,6 +33,5 @@ https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cl
 
 ## Maquettes
 - Mobile :
-<img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/accueil.png" alt="Home" width="200"/> 
-<img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/menu.png" alt="Home" width="200"/> 
+<img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/accueil.png" alt="Home" width="200"/> <img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/menu.png" alt="Home" width="200"/> 
 
