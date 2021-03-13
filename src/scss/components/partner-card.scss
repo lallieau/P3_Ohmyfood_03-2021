@@ -4,7 +4,9 @@
 .partners-list__card{
     background-color: $white-color;
     margin: $normal-margin;
-    border-radius: $partner-card-border;
+    border-radius: $card-border;
+
+    @include simple-shadow;
 
 }
 .partners-list-card__img{

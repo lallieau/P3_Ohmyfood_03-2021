@@ -1,8 +1,16 @@
 @use '../utils/variables' as *;
+@use '../utils/mixins' as *;
 
 .explore__button, .menu__order-button {
     border-radius: 20px;
     color: $white-color;
     background: $gradient-color;
-    padding: $normal-padding;
+    padding: $normal-padding $medium-padding;
+
+    @include simple-shadow;
+}
+
+.menu__order-button{
+    padding: $normal-padding $large-padding;
+    @include menu-order-button-margin;
 }

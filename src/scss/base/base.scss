@@ -21,3 +21,13 @@ button {
   box-shadow: none;
   border: none;
 }
+
+h3, h1{
+  font-weight: $title-weight;
+}
+h1{
+  letter-spacing: 1.5px;
+}
+p{
+  font-weight: $text-weight;
+}

@@ -33,8 +33,8 @@ main {
  * `article` contexts in Chrome, Firefox, and Safari.
  */
 h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
+  font-size: 1.8em;
+  margin: 0;
 }
 
 /* Grouping content
@@ -357,17 +357,36 @@ button {
   border: none;
 }
 
+h3, h1 {
+  font-weight: 500;
+}
+
+h1 {
+  letter-spacing: 1.5px;
+}
+
+p {
+  font-weight: 300;
+}
+
 .explore__button, .menu__order-button {
   border-radius: 20px;
   color: #fff;
   background: linear-gradient(140deg, #ff79da 0%, #9356dc 90%);
-  padding: 10px;
+  padding: 10px 20px;
+  box-shadow: 2px 2px 15px 0px rgba(159, 159, 159, 0.5);
+}
+
+.menu__order-button {
+  padding: 10px 40px;
+  margin: 20px 20px 80px 20px;
 }
 
 .partners-list__card {
   background-color: #fff;
   margin: 20px;
   border-radius: 10px;
+  box-shadow: 2px 2px 15px 0px rgba(159, 159, 159, 0.5);
 }
 
 .partners-list-card__img {
@@ -410,20 +429,7 @@ button {
   margin: 20px;
   align-items: center;
 }
-
-.service-usage-step__content {
-  display: flex;
-  align-items: center;
-  background-color: #ECECEC;
-  width: 100%;
-  padding: 30px;
-  border-radius: 20px;
-}
-.service-usage-step__content .service-usage-step-content__icon {
-  width: 15px;
-}
-
-.service-usage-step__number {
+.service-usage__step .service-usage-step__number {
   background-color: #9356DC;
   width: 20px;
   border-radius: 100px;
@@ -432,6 +438,54 @@ button {
   color: #fff;
   position: absolute;
   left: 10px;
+}
+
+.service-usage-step__content {
+  display: flex;
+  align-items: center;
+  background-color: #f5f1f1;
+  width: 100%;
+  padding: 10px;
+  border-radius: 25px;
+  box-shadow: 2px 2px 15px 0px rgba(159, 159, 159, 0.5);
+}
+.service-usage-step__content .service-usage-step-content__text {
+  font-weight: 500;
+}
+.service-usage-step__content .service-usage-step-content__icon {
+  width: 15px;
+  height: 15px;
+  padding: 25px;
+}
+
+.service-usage-step--with-background {
+  background-color: #f2eafb;
+}
+.service-usage-step--with-background .service-usage-step-content-icon--with-color {
+  color: #9356DC;
+}
+
+.menu-category__card {
+  background-color: #fff;
+  margin: 20px;
+  border-radius: 10px;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  box-shadow: 2px 2px 15px 0px rgba(159, 159, 159, 0.5);
+}
+
+.menu-category-card__detail {
+  padding: 10px;
+  line-height: 1.5rem;
+}
+
+.menu-category-card__price {
+  padding: 10px;
+}
+.menu-category-card__price p {
+  font-weight: 500;
 }
 
 .footer-nav {
@@ -464,7 +518,7 @@ header .header-logo {
 }
 
 .partners-list {
-  background-color: #ECECEC;
+  background-color: #f5f1f1;
   padding: 30px 0 30px;
 }
 .partners-list .partners-list__title {
@@ -472,7 +526,7 @@ header .header-logo {
 }
 
 .explore {
-  background-color: #ECECEC;
+  background-color: #f5f1f1;
   padding: 10px;
   text-align: center;
   padding: 30px 0 30px;
@@ -492,7 +546,7 @@ header .header-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #dfdfdf;
+  background-color: #eae2e2;
   padding: 20px;
 }
 .location__text {
@@ -506,6 +560,49 @@ header .header-logo {
 
 .service-usage {
   padding: 30px 0 30px;
+}
+.service-usage__title {
+  margin: 20px;
+}
+
+.back-button {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+}
+.back-button__icon {
+  width: 15px;
+}
+
+.menu {
+  text-align: center;
+  position: relative;
+  margin-top: -50px;
+  background-color: #f5f1f1;
+  padding-top: 20px;
+  border-radius: 30px 30px 0px 0px;
+}
+.menu__img {
+  width: 100%;
+}
+.menu__header {
+  margin: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: "Shrikhand", cursive;
+}
+.menu__header .menu-header-favorite-button__icon {
+  width: 30px;
+}
+
+.menu-category__title {
+  margin: 20px;
+  padding-bottom: 10px;
+  font-weight: 300;
+  font-size: 1rem;
+  width: fit-content;
+  border-bottom: 3px #99E2D0 solid;
 }
 
 /*# sourceMappingURL=styles.css.map */

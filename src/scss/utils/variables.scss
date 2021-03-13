@@ -4,13 +4,13 @@ $third-color: #99E2D0;
 
 $white-color: #fff;
 
-$primary-light-color: lighten($primary-color, 20%);
+$primary-light-color: lighten($primary-color, 35%);
 $third-dark-color: darken($third-color, 40%);
 
 $gradient-color: linear-gradient(140deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 90%);
 
 $footer-background: #2C2C2C;
-$section-background: #ECECEC;
+$section-background: #f5f1f1;
 $location-background: darken($section-background, 5%);
 
 $basic-text-color: #0000;
@@ -30,10 +30,14 @@ $text-line-height: 1.5rem;
 $title-line-height: 2rem;
 
 $normal-padding: 10px;
+$medium-padding: 20px;
+$large-padding: 40px;
+
 $normal-margin: 20px;
+$large-margin: 80px;
 
 $footer-padding: 20px;
-$service-padding: 30px;
+$icon-service-padding: 25px;
 $location-padding: 20px;
 
 $logo-size: 150px;
@@ -42,8 +46,8 @@ $icon-size-tall: 30px;
 $icon-size-small: 11px;
 $icon-size-medium: 15px;
 
-$partner-card-border: 10px;
-$service-card-border: 20px;
+$card-border: 10px;
+$service-card-border: 25px;
 
 
 

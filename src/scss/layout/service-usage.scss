@@ -3,4 +3,8 @@
 
 .service-usage{
     @include section-padding;
+
+    &__title{
+        margin: $normal-margin;
+    }
 }
