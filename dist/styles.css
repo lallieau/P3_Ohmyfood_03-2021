@@ -372,9 +372,13 @@ p {
 .explore__button, .menu__order-button {
   border-radius: 20px;
   color: #fff;
-  background: linear-gradient(140deg, #ff79da 0%, #9356dc 90%);
+  background: linear-gradient(170deg, #FF79DA 0%, #9356DC 90%);
   padding: 10px 20px;
+  cursor: pointer;
   box-shadow: 2px 2px 15px 0px rgba(159, 159, 159, 0.5);
+}
+.explore__button:hover, .menu__order-button:hover {
+  background: linear-gradient(170deg, #ff93e1 0%, #a16be0 90%);
 }
 
 .menu__order-button {
@@ -416,6 +420,16 @@ p {
 }
 .partners-list-card__content .partners-list-card-content-favorite-button__icon {
   width: 30px;
+  cursor: pointer;
+  position: relative;
+  fill: transparent;
+  stroke: #000;
+  stroke-width: 30;
+  overflow: visible;
+}
+.partners-list-card__content .partners-list-card-content-favorite-button__icon:hover {
+  fill: url(#favorite-button-gradient);
+  stroke: url(#favorite-button-gradient);
 }
 
 .partners-list-card-content__text .partners-list-card-content-text__name, .partners-list-card-content__text .partners-list-card-content-text__city {
@@ -633,6 +647,16 @@ header .header-logo {
 }
 .menu__header .menu-header-favorite-button__icon {
   width: 30px;
+  cursor: pointer;
+  position: relative;
+  fill: transparent;
+  stroke: #000;
+  stroke-width: 30;
+  overflow: visible;
+}
+.menu__header .menu-header-favorite-button__icon:hover {
+  fill: url(#favorite-button-gradient);
+  stroke: url(#favorite-button-gradient);
 }
 
 .menu-category__title {

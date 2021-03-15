@@ -40,6 +40,19 @@
 
     .partners-list-card-content-favorite-button__icon{
         width: $icon-size-tall;
+        cursor: pointer;
+        position: relative;
+
+        fill: transparent;
+        stroke: $black-color;
+        stroke-width: 30;
+        overflow: visible;
+
+        &:hover{
+            fill:url(#favorite-button-gradient);
+            stroke: url(#favorite-button-gradient);
+            
+        }
     }
 }
 

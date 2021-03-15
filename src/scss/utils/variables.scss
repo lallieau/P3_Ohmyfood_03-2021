@@ -3,11 +3,13 @@ $secondary-color: #FF79DA;
 $third-color: #99E2D0;
 
 $white-color: #fff;
+$black-color: #000;
 
 $primary-light-color: lighten($primary-color, 35%);
 $third-dark-color: darken($third-color, 40%);
 
-$gradient-color: linear-gradient(140deg, rgba(255,121,218,1) 0%, rgba(147,86,220,1) 90%);
+$gradient-color: linear-gradient(170deg, $secondary-color 0%, $primary-color 90%);
+$hover-gradient-color: linear-gradient(170deg, lighten($secondary-color, 5%) 0%, lighten($primary-color, 5%) 90%);
 
 $footer-background: #2C2C2C;
 $section-background: #f5f1f1;

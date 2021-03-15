@@ -6,11 +6,17 @@
     color: $white-color;
     background: $gradient-color;
     padding: $normal-padding $medium-padding;
+    cursor: pointer;
 
     @include simple-shadow;
+
+    &:hover{
+        background: $hover-gradient-color;
+    }
 }
 
 .menu__order-button{
     padding: $normal-padding $large-padding;
     @include menu-order-button-margin;
 }
+
