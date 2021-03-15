@@ -1,2 +1,23 @@
 @use '../layout/restaurant-header' as *;
 @use '../layout/menu' as *;
+
+@use '../utils/variables' as *;
+
+@media (min-width: $desktop) {
+    .menu{
+        padding: $large-padding;
+
+        &__img{
+            height: 500px;
+        }
+    }
+
+    .menu-category__card{
+        width: $large-card;
+        margin: $normal-margin auto;
+    }
+
+    .menu-category__title{
+        margin: auto;
+    }
+}

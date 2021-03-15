@@ -386,6 +386,7 @@ p {
   background-color: #fff;
   margin: 20px;
   border-radius: 10px;
+  position: relative;
   box-shadow: 2px 2px 15px 0px rgba(159, 159, 159, 0.5);
 }
 
@@ -428,6 +429,7 @@ p {
   display: flex;
   margin: 20px;
   align-items: center;
+  position: relative;
 }
 .service-usage__step .service-usage-step__number {
   background-color: #9356DC;
@@ -437,7 +439,7 @@ p {
   text-align: center;
   color: #fff;
   position: absolute;
-  left: 10px;
+  left: -15px;
 }
 
 .service-usage-step__content {
@@ -565,6 +567,41 @@ header .header-logo {
   margin: 20px;
 }
 
+@media (min-width: 768px) {
+  .service-usage {
+    padding: 40px;
+  }
+
+  .partners-list {
+    padding: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr;
+    grid-template-areas: "title title" "restaurant restaurant" "restaurant restaurant";
+  }
+  .partners-list .partners-list__title {
+    grid-area: title;
+  }
+
+  .partners-list__card {
+    grid-area: restaurant;
+  }
+
+  .footer-nav {
+    padding: 40px;
+  }
+}
+@media (min-width: 1280px) {
+  .service-usage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-template-areas: "title title title" "step step step";
+  }
+  .service-usage__title {
+    grid-area: title;
+  }
+}
 .back-button {
   position: absolute;
   left: 10px;
@@ -605,6 +642,24 @@ header .header-logo {
   font-size: 1rem;
   width: fit-content;
   border-bottom: 3px #99E2D0 solid;
+}
+
+@media (min-width: 1280px) {
+  .menu {
+    padding: 40px;
+  }
+  .menu__img {
+    height: 500px;
+  }
+
+  .menu-category__card {
+    width: 500px;
+    margin: 20px auto;
+  }
+
+  .menu-category__title {
+    margin: auto;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

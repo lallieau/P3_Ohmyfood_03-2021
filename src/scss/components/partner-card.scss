@@ -5,6 +5,7 @@
     background-color: $white-color;
     margin: $normal-margin;
     border-radius: $card-border;
+    position: relative;
 
     @include simple-shadow;
 

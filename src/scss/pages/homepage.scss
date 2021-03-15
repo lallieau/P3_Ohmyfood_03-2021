@@ -3,6 +3,49 @@
 @use '../layout/location' as *;
 @use '../layout/service-usage' as *;
 
+@use '../utils/variables' as *;
 
+// Responsive
+@media (min-width: $tablet) {
+  .service-usage {
+    padding: $large-padding;
+  }
 
+  .partners-list {
+    padding: $large-padding;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px 1fr 1fr;
+    grid-template-areas:
+      "title title"
+      "restaurant restaurant"
+      "restaurant restaurant";
 
+    .partners-list__title {
+      grid-area: title;
+    }
+  }
+
+  .partners-list__card {
+    grid-area: restaurant;
+  }
+
+  .footer-nav{
+      padding: $large-padding;
+  }
+}
+
+@media (min-width: $desktop) {
+  .service-usage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 100px);
+    grid-template-areas:
+      "title title title"
+      "step step step";
+
+    &__title {
+      grid-area: title;
+    }
+  }
+}

@@ -5,6 +5,7 @@
     display: flex;
     margin: $normal-margin;
     align-items: center;
+    position: relative;
 
     .service-usage-step__number{
         background-color: $primary-color;
@@ -15,7 +16,7 @@
         color: $white-color;
 
         position: absolute;
-        left: 10px;
+        left: -15px;
     }
 }
 
