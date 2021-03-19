@@ -1,22 +1,22 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 
-.explore__button, .menu__order-button {
-    border-radius: 20px;
-    color: $white-color;
-    background: $gradient-color;
-    padding: $normal-padding $medium-padding;
-    cursor: pointer;
+.explore__button,
+.menu__order-button {
+  border-radius: 20px;
+  color: $white-color;
+  background: $gradient-color;
+  padding: $normal-padding $medium-padding;
+  cursor: pointer;
 
-    @include simple-shadow;
+  @include simple-shadow;
 
-    &:hover{
-        background: $hover-gradient-color;
-    }
+  &:hover {
+    background: $hover-gradient-color;
+  }
 }
 
-.menu__order-button{
-    padding: $normal-padding $large-padding;
-    @include menu-order-button-margin;
+.menu__order-button {
+  padding: $normal-padding $large-padding;
+  @include menu-order-button-margin;
 }
-

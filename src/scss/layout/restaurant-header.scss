@@ -1,10 +1,11 @@
 @use '../utils/variables' as *;
-.back-button{
-    position: absolute;
-    left: 10px;
-    top: 15px;
 
-    &__icon{
-        width: $icon-size-medium;
-    }
+.back-button {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+
+  &__icon {
+    width: $icon-size-medium;
+  }
 }

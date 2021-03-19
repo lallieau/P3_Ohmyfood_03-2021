@@ -1,30 +1,29 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 
-.menu-category__card{
-    background-color: $white-color;
-    margin: $normal-margin;
-    border-radius: $card-border;
+.menu-category__card {
+  background-color: $white-color;
+  margin: $normal-margin;
+  border-radius: $card-border;
 
-    text-align: left;
+  text-align: left;
 
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
 
-    @include simple-shadow;
-
+  @include simple-shadow;
 }
 
 .menu-category-card__detail {
-    padding: $normal-padding;
-    line-height: $text-line-height;
+  padding: $normal-padding;
+  line-height: $text-line-height;
 }
 
 .menu-category-card__price {
-    padding: $normal-padding;
+  padding: $normal-padding;
 
-    p{
-        font-weight: $title-weight;
-    }
+  p {
+    font-weight: $title-weight;
+  }
 }

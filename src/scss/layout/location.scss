@@ -1,21 +1,21 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 
-.location{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    background-color: $location-background;
-    padding: $location-padding;
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-    &__text{
-        font-weight: $text-weight;
-        font-size: $text-size;
-    }
+  background-color: $location-background;
+  padding: $location-padding;
 
-    &__icon{
-        width: $icon-size-small;
-        padding-right: $normal-padding;
-    }
+  &__text {
+    font-weight: $text-weight;
+    font-size: $text-size;
+  }
+
+  &__icon {
+    width: $icon-size-small;
+    padding-right: $normal-padding;
+  }
 }

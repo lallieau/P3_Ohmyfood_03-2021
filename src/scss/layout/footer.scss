@@ -1,24 +1,24 @@
 @use '../utils/variables' as *;
 
-.footer-nav{
-    background-color: $footer-background;
-    display: flex;
-    flex-direction: column;
-    padding: $footer-padding;
+.footer-nav {
+  background-color: $footer-background;
+  display: flex;
+  flex-direction: column;
+  padding: $footer-padding;
 
-    .footer-nav__link{
-        color: $light-text-color;
-        font-weight: $text-weight;
-        line-height: $text-line-height;
-        font-size: $text-size;
+  .footer-nav__link {
+    color: $light-text-color;
+    font-weight: $text-weight;
+    line-height: $text-line-height;
+    font-size: $text-size;
 
-        .footer-nav-link__icon{
-            width: $icon-size-small;
-        }
+    .footer-nav-link__icon {
+      width: $icon-size-small;
     }
+  }
 
-    .footer-nav__link:first-child{
-        font-family: $title-family;
-        line-height: $title-line-height;
-    }
+  .footer-nav__link:first-child {
+    font-family: $title-family;
+    line-height: $title-line-height;
+  }
 }

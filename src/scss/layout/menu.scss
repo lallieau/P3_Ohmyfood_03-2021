@@ -1,40 +1,40 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 
-.menu{
-    text-align: center;
-    position: relative;
-    margin-top: -50px;
-    background-color: $section-background;
-    padding-top: $medium-padding;
+.menu {
+  text-align: center;
+  position: relative;
+  margin-top: -50px;
+  background-color: $section-background;
+  padding-top: $medium-padding;
 
-    @include menu-border-top;
+  @include menu-border-top;
 
-    &__img{
-        width: 100%;
-        object-fit: cover;
-        height: 300px;
+  &__img {
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+  }
+
+  &__header {
+    margin: $normal-margin;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: $title-family;
+
+    .menu-header-favorite-button__icon {
+      font-size: $icon-size-tall;
     }
-
-    &__header{
-        margin: $normal-margin;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        font-family: $title-family;
-
-        .menu-header-favorite-button__icon{
-            font-size: $icon-size-tall;
-        }
-    }
+  }
 }
 
-.menu-category__title{
-    margin: $normal-margin;
-    padding-bottom: $normal-padding;
-    font-weight: $text-weight;
-    font-size: $text-size;
-    width: fit-content;
+.menu-category__title {
+  margin: $normal-margin;
+  padding-bottom: $normal-padding;
+  font-weight: $text-weight;
+  font-size: $text-size;
+  width: fit-content;
 
-    @include border-bottom-title;
+  @include border-bottom-title;
 }
