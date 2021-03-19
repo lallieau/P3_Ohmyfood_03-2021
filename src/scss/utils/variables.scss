@@ -62,7 +62,17 @@ $service-card-border: 25px;
 
 $desktop-card: 370px;
 
+// Reveal
+
+$duration: 2500ms;
+$order: (
+  card1: 00ms,
+  card2: 500ms,
+  card3: 1000ms,
+  card4: 1500ms,
+);
+
 // Breakpoints
 
 $tablet: 768px;
-$desktop: 14400px;
+$desktop: 1440px;
