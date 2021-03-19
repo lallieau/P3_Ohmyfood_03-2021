@@ -11,10 +11,14 @@
             height: 500px;
         }
     }
-
+    .all-category{
+        display: flex;
+        justify-content: center;
+        margin: $medium-margin auto;
+    }
     .menu-category__card{
-        width: $large-card;
-        margin: $normal-margin auto;
+        width: $desktop-card;
+        margin: $normal-margin;
     }
 
     .menu-category__title{

@@ -656,9 +656,15 @@ header .header-logo {
     height: 500px;
   }
 
+  .all-category {
+    display: flex;
+    justify-content: center;
+    margin: 50px auto;
+  }
+
   .menu-category__card {
-    width: 500px;
-    margin: 20px auto;
+    width: 370px;
+    margin: 20px;
   }
 
   .menu-category__title {
