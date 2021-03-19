@@ -1,9 +1,65 @@
-@use '../layout/partners-list' as *;
-@use '../layout/explore' as *;
-@use '../layout/location' as *;
-@use '../layout/service-usage' as *;
-
 @use '../utils/variables' as *;
+@use '../utils/mixins' as *;
+
+// Layout Mobile First
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: $location-background;
+  padding: $location-padding;
+
+  &__text {
+    font-weight: $text-weight;
+    font-size: $text-size;
+  }
+
+  &__icon {
+    width: $icon-size-small;
+    padding-right: $normal-padding;
+  }
+}
+
+.explore {
+  background-color: $section-background;
+  padding: $normal-padding;
+  text-align: center;
+  @include section-padding;
+
+  &__title,
+  &__subtitle,
+  &__button {
+    margin: $normal-margin;
+  }
+
+  &__subtitle {
+    font-weight: $text-weight;
+    font-size: $title-size;
+  }
+
+  &__title {
+    font-size: $tall-title-size;
+  }
+}
+
+.service-usage {
+  @include section-padding;
+
+  &__title {
+    margin: $normal-margin;
+  }
+}
+
+.partners-list {
+  background-color: $section-background;
+
+  @include section-padding;
+
+  .partners-list__title {
+    margin: $normal-margin;
+  }
+}
 
 // Responsive
 @media (min-width: $tablet) {
@@ -30,8 +86,8 @@
     grid-area: restaurant;
   }
 
-  .footer-nav{
-      padding: $large-padding;
+  .footer-nav {
+    padding: $large-padding;
   }
 }
 

@@ -580,12 +580,20 @@ header .header-logo {
   width: 150px;
 }
 
-.partners-list {
-  background-color: #f6f6f6;
-  padding: 30px 0 30px;
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #eaeaea;
+  padding: 20px;
 }
-.partners-list .partners-list__title {
-  margin: 20px;
+.location__text {
+  font-weight: 300;
+  font-size: 1rem;
+}
+.location__icon {
+  width: 11px;
+  padding-right: 10px;
 }
 
 .explore {
@@ -605,26 +613,18 @@ header .header-logo {
   font-size: 1.5rem;
 }
 
-.location {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #eaeaea;
-  padding: 20px;
-}
-.location__text {
-  font-weight: 300;
-  font-size: 1rem;
-}
-.location__icon {
-  width: 11px;
-  padding-right: 10px;
-}
-
 .service-usage {
   padding: 30px 0 30px;
 }
 .service-usage__title {
+  margin: 20px;
+}
+
+.partners-list {
+  background-color: #f6f6f6;
+  padding: 30px 0 30px;
+}
+.partners-list .partners-list__title {
   margin: 20px;
 }
 
