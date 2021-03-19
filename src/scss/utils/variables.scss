@@ -12,8 +12,8 @@ $gradient-color: linear-gradient(170deg, $secondary-color 0%, $primary-color 90%
 $hover-gradient-color: linear-gradient(170deg, lighten($secondary-color, 5%) 0%, lighten($primary-color, 5%) 90%);
 
 $footer-background: #2C2C2C;
-$section-background: #f5f1f1;
-$location-background: darken($section-background, 5%);
+$section-background: #f6f6f6;
+$location-background: #eaeaea;
 
 $basic-text-color: #0000;
 $light-text-color: #ffff;

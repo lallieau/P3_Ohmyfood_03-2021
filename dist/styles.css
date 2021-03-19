@@ -419,17 +419,7 @@ p {
   justify-content: space-between;
 }
 .partners-list-card__content .partners-list-card-content-favorite-button__icon {
-  width: 30px;
-  cursor: pointer;
-  position: relative;
-  fill: transparent;
-  stroke: #000;
-  stroke-width: 30;
-  overflow: visible;
-}
-.partners-list-card__content .partners-list-card-content-favorite-button__icon:hover {
-  fill: url(#favorite-button-gradient);
-  stroke: url(#favorite-button-gradient);
+  font-size: 30px;
 }
 
 .partners-list-card-content__text .partners-list-card-content-text__name, .partners-list-card-content__text .partners-list-card-content-text__city {
@@ -459,7 +449,7 @@ p {
 .service-usage-step__content {
   display: flex;
   align-items: center;
-  background-color: #f5f1f1;
+  background-color: #f6f6f6;
   width: 100%;
   padding: 10px;
   border-radius: 25px;
@@ -534,7 +524,7 @@ header .header-logo {
 }
 
 .partners-list {
-  background-color: #f5f1f1;
+  background-color: #f6f6f6;
   padding: 30px 0 30px;
 }
 .partners-list .partners-list__title {
@@ -542,7 +532,7 @@ header .header-logo {
 }
 
 .explore {
-  background-color: #f5f1f1;
+  background-color: #f6f6f6;
   padding: 10px;
   text-align: center;
   padding: 30px 0 30px;
@@ -562,7 +552,7 @@ header .header-logo {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #eae2e2;
+  background-color: #eaeaea;
   padding: 20px;
 }
 .location__text {
@@ -629,7 +619,7 @@ header .header-logo {
   text-align: center;
   position: relative;
   margin-top: -50px;
-  background-color: #f5f1f1;
+  background-color: #f6f6f6;
   padding-top: 20px;
   border-radius: 30px 30px 0px 0px;
 }
@@ -646,17 +636,7 @@ header .header-logo {
   font-family: "Shrikhand", cursive;
 }
 .menu__header .menu-header-favorite-button__icon {
-  width: 30px;
-  cursor: pointer;
-  position: relative;
-  fill: transparent;
-  stroke: #000;
-  stroke-width: 30;
-  overflow: visible;
-}
-.menu__header .menu-header-favorite-button__icon:hover {
-  fill: url(#favorite-button-gradient);
-  stroke: url(#favorite-button-gradient);
+  font-size: 30px;
 }
 
 .menu-category__title {
