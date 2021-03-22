@@ -402,14 +402,14 @@ p {
   right: 10%;
   top: 8%;
 }
-.menu__header .favorite-button__icon--hide {
+.menu__header .hide-element {
   background-color: #f6f6f6;
 }
 
 .partners-list-card-content__button .favorite-button {
   right: 8%;
 }
-.partners-list-card-content__button .favorite-button__icon--hide {
+.partners-list-card-content__button .hide-element {
   background-color: #fff;
 }
 
@@ -422,7 +422,7 @@ p {
   transform: scaleY(1.1);
   -webkit-text-stroke: 0.5px #fff;
 }
-.favorite-button:hover .favorite-button__icon--hide {
+.favorite-button:hover .hide-element {
   transform: scaleY(0);
 }
 .favorite-button:hover .favorite-button__icon--empty {
@@ -431,7 +431,7 @@ p {
   -webkit-text-fill-color: transparent;
   -webkit-text-stroke: 0px black;
 }
-.favorite-button .favorite-button__icon--hide {
+.favorite-button .hide-element {
   position: absolute;
   width: 30px;
   height: 30px;

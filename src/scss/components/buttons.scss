@@ -39,7 +39,7 @@
     right: 10%;
     top: 8%;
   }
-  .favorite-button__icon--hide {
+  .hide-element {
     background-color: $section-background;
   }
 }
@@ -48,7 +48,7 @@
   .favorite-button {
     right: 8%;
   }
-  .favorite-button__icon--hide {
+  .hide-element {
     background-color: $white-color;
   }
 }
@@ -62,7 +62,7 @@
   -webkit-text-stroke: 0.5px #fff;
 
   &:hover {
-    .favorite-button__icon--hide {
+    .hide-element {
       transform: scaleY(0);
     }
     .favorite-button__icon--empty {
@@ -79,7 +79,7 @@
     }
   }
 
-  .favorite-button__icon--hide {
+  .hide-element {
     position: absolute;
     width: 30px;
     height: 30px;
