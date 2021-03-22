@@ -638,6 +638,7 @@ p {
 }
 .footer-nav .footer-nav__link .footer-nav-link__icon {
   width: 11px;
+  padding-right: 10px;
 }
 .footer-nav .footer-nav__link:first-child {
   font-family: "Shrikhand", cursive;
