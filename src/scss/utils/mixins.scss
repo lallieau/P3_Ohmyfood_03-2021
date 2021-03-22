@@ -20,6 +20,10 @@
   box-shadow: 2px 2px 15px 0px rgba(159, 159, 159, 0.5);
 }
 
+@mixin hover-shadow {
+  box-shadow: 2px 2px 15px 0px rgba(24, 24, 24, 0.5);
+}
+
 @mixin border-bottom-title {
   border-bottom: 3px $third-color solid;
 }

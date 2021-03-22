@@ -13,10 +13,115 @@
 
   &:hover {
     background: $hover-gradient-color;
+    @include hover-shadow;
   }
 }
 
 .menu__order-button {
   padding: $normal-padding $large-padding;
   @include menu-order-button-margin;
+}
+
+// Back button, restaurant page
+.back-button {
+  position: absolute;
+  left: 10px;
+  top: 15px;
+
+  &__icon {
+    width: $icon-size-medium;
+  }
+}
+
+// Favorite button
+.menu__header {
+  .favorite-button {
+    right: 10%;
+    top: 8%;
+  }
+  .favorite-button__icon--hide {
+    background-color: $section-background;
+  }
+}
+
+.partners-list-card-content__button {
+  .favorite-button {
+    right: 8%;
+  }
+  .favorite-button__icon--hide {
+    background-color: $white-color;
+  }
+}
+.favorite-button {
+  position: absolute;
+  display: inline;
+  z-index: 3;
+  cursor: pointer;
+  font-size: 1.4rem;
+  transform: scaleY(1.1);
+  -webkit-text-stroke: 0.5px #fff;
+
+  &:hover {
+    .favorite-button__icon--hide {
+      transform: scaleY(0);
+    }
+    .favorite-button__icon--empty {
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from($primary-color),
+        to($secondary-color)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      -webkit-text-stroke: 0px black;
+    }
+  }
+
+  .favorite-button__icon--hide {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    opacity: 1;
+    z-index: 1;
+    transform: scaleY(1);
+    transform-origin: top center;
+    transition: transform 500ms;
+  }
+
+  .favorite-button__icon {
+    font-size: $icon-size-tall;
+
+    &--empty {
+      z-index: 2;
+      position: absolute;
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(black),
+        to(black)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transition: background 500ms ease;
+    }
+
+    &--check {
+      z-index: 0;
+      position: absolute;
+      background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from($primary-color),
+        to($secondary-color)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      transform: scale(0.9);
+      transition: opacity 100ms;
+    }
+  }
 }

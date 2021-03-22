@@ -2,15 +2,6 @@
 @use '../utils/mixins' as *;
 
 // Layout Mobile First
-.back-button {
-  position: absolute;
-  left: 10px;
-  top: 15px;
-
-  &__icon {
-    width: $icon-size-medium;
-  }
-}
 
 .menu {
   text-align: center;
@@ -33,10 +24,6 @@
     justify-content: space-between;
     align-items: center;
     font-family: $title-family;
-
-    .menu-header-favorite-button__icon {
-      font-size: $icon-size-tall;
-    }
   }
 }
 
