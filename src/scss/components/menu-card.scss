@@ -37,6 +37,8 @@
 .menu-category__card {
   .menu-category-card__price {
     transition: transform 500ms;
+    position: absolute;
+    right: 0;
   }
 
   &:hover {

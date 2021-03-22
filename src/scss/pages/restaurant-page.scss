@@ -28,7 +28,7 @@
 }
 
 .menu-category__title {
-  margin: $normal-margin;
+  margin: $large-margin $normal-margin 0 $normal-margin;
   padding-bottom: $normal-padding;
   font-weight: $text-weight;
   font-size: $text-size;
@@ -57,6 +57,11 @@
 }
 
 // Responsive
+@media (min-width: $tablet) {
+  .menu__category {
+    padding: $normal-padding $large-padding;
+  }
+}
 @media (min-width: $desktop) {
   .menu {
     padding: $large-padding;
@@ -77,5 +82,9 @@
 
   .menu-category__title {
     margin: auto;
+  }
+
+  .menu__category {
+    padding: 0;
   }
 }

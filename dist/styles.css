@@ -385,8 +385,8 @@ p {
 }
 
 .menu__order-button {
-  padding: 10px 40px;
-  margin: 20px 20px 80px 20px;
+  padding: 10px 80px;
+  margin: 20px 20px 60px 20px;
 }
 
 .back-button {
@@ -577,6 +577,8 @@ p {
 
 .menu-category__card .menu-category-card__price {
   transition: transform 500ms;
+  position: absolute;
+  right: 0;
 }
 .menu-category__card:hover .menu-category-card__detail {
   width: 65%;
@@ -701,11 +703,11 @@ header .header-logo {
 
 @media (min-width: 768px) {
   .service-usage {
-    padding: 40px;
+    padding: 80px;
   }
 
   .partners-list {
-    padding: 40px;
+    padding: 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 1fr 1fr;
@@ -720,10 +722,14 @@ header .header-logo {
   }
 
   .footer-nav {
-    padding: 40px;
+    padding: 80px;
   }
 }
 @media (min-width: 1440px) {
+  .partners-list {
+    padding: 20px 80px;
+  }
+
   .service-usage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -756,7 +762,7 @@ header .header-logo {
 }
 
 .menu-category__title {
-  margin: 20px;
+  margin: 60px 20px 0 20px;
   padding-bottom: 10px;
   font-weight: 300;
   font-size: 1rem;
@@ -802,9 +808,14 @@ header .header-logo {
     transform: translateY(20px);
   }
 }
+@media (min-width: 768px) {
+  .menu__category {
+    padding: 10px 80px;
+  }
+}
 @media (min-width: 1440px) {
   .menu {
-    padding: 40px;
+    padding: 80px;
   }
   .menu__img {
     height: 500px;
@@ -823,6 +834,10 @@ header .header-logo {
 
   .menu-category__title {
     margin: auto;
+  }
+
+  .menu__category {
+    padding: 0;
   }
 }
 

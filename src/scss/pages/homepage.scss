@@ -68,7 +68,7 @@
   }
 
   .partners-list {
-    padding: $large-padding;
+    padding: $medium-padding;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 50px 1fr 1fr;
@@ -92,6 +92,9 @@
 }
 
 @media (min-width: $desktop) {
+  .partners-list {
+    padding: $medium-padding $large-padding;
+  }
   .service-usage {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
