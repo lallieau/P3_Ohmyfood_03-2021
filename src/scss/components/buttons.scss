@@ -66,13 +66,7 @@
       transform: scaleY(0);
     }
     .favorite-button__icon--empty {
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from($primary-color),
-        to($secondary-color)
-      );
+      background: $gradient-color;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       -webkit-text-stroke: 0px black;
@@ -96,13 +90,7 @@
     &--empty {
       z-index: 2;
       position: absolute;
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from(black),
-        to(black)
-      );
+      background: $black-color;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       transition: background 500ms ease;
@@ -111,13 +99,7 @@
     &--check {
       z-index: 0;
       position: absolute;
-      background: -webkit-gradient(
-        linear,
-        left top,
-        left bottom,
-        from($primary-color),
-        to($secondary-color)
-      );
+      background: $gradient-color;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       transform: scale(0.9);

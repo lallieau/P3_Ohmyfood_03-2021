@@ -4,11 +4,10 @@
 @use 'components/partner-card';
 @use 'components/service-usage-card';
 @use 'components/menu-card';
+@use 'components/loader';
 
 @use 'layout/footer';
 @use 'layout/header';
 
-
 @use 'pages/homepage';
 @use 'pages/restaurant-page';
-
