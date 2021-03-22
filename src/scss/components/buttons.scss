@@ -36,23 +36,19 @@
 // Favorite button
 .menu__header {
   .favorite-button {
-    right: 10%;
-    top: 8%;
+    top: 3%;
   }
-  .hide-element {
+  .hide-element--grey {
     background-color: $section-background;
   }
 }
 
-.partners-list-card-content__button {
-  .favorite-button {
-    right: 8%;
-  }
-  .hide-element {
-    background-color: $white-color;
-  }
+.hide-element--white {
+  background-color: $white-color;
 }
+
 .favorite-button {
+  right: 50px;
   position: absolute;
   display: inline;
   z-index: 3;

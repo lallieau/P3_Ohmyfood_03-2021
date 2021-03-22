@@ -32,7 +32,7 @@
   padding-bottom: $normal-padding;
   font-weight: $text-weight;
   font-size: $text-size;
-  width: fit-content;
+  width: min-content;
 
   @include border-bottom-title;
 }

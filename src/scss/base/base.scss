@@ -1,6 +1,6 @@
- @use '../utils/variables' as *;
+@use '../utils/variables' as *;
 
- @import "../../../node_modules/normalize.css/normalize";
+@import "../../../node_modules/normalize.css/normalize";
 
 body {
   font-family: $text-family;
@@ -12,7 +12,9 @@ a {
   color: inherit;
 }
 
-h3, p, h2{
+h3,
+p,
+h2 {
   margin: 0;
 }
 
@@ -22,12 +24,10 @@ button {
   border: none;
 }
 
-h3, h1{
+h3,
+h1 {
   font-weight: $title-weight;
 }
-h1{
-  letter-spacing: 1.5px;
-}
-p{
+p {
   font-weight: $text-weight;
 }
