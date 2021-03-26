@@ -2,7 +2,7 @@
 
 Début du projet : mars 2021
 
-Fin du projet : 
+Fin du projet : mars 2021
 
 ## Présentation du projet
 
@@ -15,24 +15,29 @@ https://lallieau.github.io/P3_Ohmyfood/
 
 Contenu :
 
-Vous retrouverez dans ce projet une home page présentant l'application et une liste de différents restaurants partenaires. 
-Ces restaurants sont présentés sous forme de carte. 
+Vous retrouverez dans ce projet une home page présentant l'application et une liste de différents restaurants partenaires.
+Ces restaurants sont présentés sous forme de carte.
 Ensuite on retrouvera à chaque restaurants une page dédiée avec le menu du restaurant.
 
 Languages utilisés:
-- Html et Css
+
+- Html, Sass
 
 ## Pré-requis
+
 Ce qu'il est requis pour commencer :
+
 - Un IDE (ex : VS Code)
 
 ## Installation
+
 Les étapes pour installer :
+
 - Cloner le projet sur votre machine.
-https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
+  https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
 
 ## Maquettes
+
 - Mobile :
 
-<img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/accueil.png" alt="Home" width="200"/> <img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/menu.png" alt="Home" width="200"/> 
-
+<img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/accueil.png" alt="Home" width="200"/> <img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/menu.png" alt="Home" width="200"/>
