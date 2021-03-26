@@ -654,6 +654,7 @@ p {
   position: relative;
   width: 200px;
   height: 200px;
+  overflow: hidden;
   border-radius: 50%;
 }
 .loader::before {
@@ -663,7 +664,7 @@ p {
   top: 45%;
   left: 25px;
   right: 25px;
-  z-index: 1;
+  z-index: 10;
 }
 
 .loader-color {
