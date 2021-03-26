@@ -1,7 +1,7 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 
-.loading {
+.loading-background {
   font-family: $title-family;
   z-index: 5;
   position: fixed;
@@ -13,10 +13,10 @@
   align-items: center;
   background: $black-color;
   opacity: 1;
-  animation: loader-background 500ms 2s forwards;
+  animation: loading-background 500ms 2s forwards;
 }
 
-@keyframes loader-background {
+@keyframes loading-background {
   0% {
     opacity: 1;
   }
@@ -36,38 +36,29 @@
   position: relative;
   width: 200px;
   height: 200px;
-  border: 4px solid #240229;
-  overflow: hidden;
   border-radius: 50%;
+
+  &::before {
+    content: "Oh my food";
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 25px;
+    right: 25px;
+    z-index: 1;
+  }
 }
 
-.loader:before {
-  content: "Oh my food";
-  text-align: center;
-  position: absolute;
-  top: 45%;
-  left: 25px;
-  right: 25px;
-  z-index: 10;
-}
-
-.loading-circle {
+.loader-color {
   position: absolute;
   width: 100%;
   height: 100%;
   border-radius: 50%;
-  background-image: linear-gradient(
-    -225deg,
-    $secondary-color 0%,
-    $primary-color 100%
-  );
-
-  filter: blur(20px);
-  z-index: -1;
-  animation: animate 1s linear infinite;
+  background: linear-gradient($secondary-color 0%, $primary-color 100%);
+  animation: animate-color 1s linear infinite;
 }
 
-@keyframes animate {
+@keyframes animate-color {
   0% {
     transform: rotate(0deg);
   }
