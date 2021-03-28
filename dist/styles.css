@@ -400,13 +400,6 @@ p {
 .menu__header .favorite-button {
   top: 3%;
 }
-.menu__header .hide-element--grey {
-  background-color: #f6f6f6;
-}
-
-.hide-element--white {
-  background-color: #fff;
-}
 
 .favorite-button {
   right: 50px;
@@ -437,6 +430,12 @@ p {
   transform-origin: top center;
   transition: transform 500ms;
 }
+.favorite-button .hide-element--white {
+  background-color: #fff;
+}
+.favorite-button .hide-element--grey {
+  background-color: #f6f6f6;
+}
 .favorite-button .favorite-button__icon {
   font-size: 30px;
 }
@@ -454,8 +453,6 @@ p {
   background: linear-gradient(170deg, #ff79da 0%, #9356dc 90%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  transform: scale(0.9);
-  transition: opacity 100ms;
 }
 
 .partners-list__card {
@@ -609,7 +606,6 @@ p {
   text-align: center;
   color: #fff;
   font-size: 1rem;
-  transform: rotate(360deg);
 }
 
 @keyframes rotation {

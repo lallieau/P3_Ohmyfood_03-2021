@@ -38,13 +38,6 @@
   .favorite-button {
     top: 3%;
   }
-  .hide-element--grey {
-    background-color: $section-background;
-  }
-}
-
-.hide-element--white {
-  background-color: $white-color;
 }
 
 .favorite-button {
@@ -78,6 +71,14 @@
     transform: scaleY(1);
     transform-origin: top center;
     transition: transform 500ms;
+
+    &--white {
+      background-color: $white-color;
+    }
+
+    &--grey {
+      background-color: $section-background;
+    }
   }
 
   .favorite-button__icon {
@@ -98,8 +99,6 @@
       background: $gradient-color;
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
-      transform: scale(0.9);
-      transition: opacity 100ms;
     }
   }
 }
