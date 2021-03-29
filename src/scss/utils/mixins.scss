@@ -37,7 +37,7 @@
 }
 
 // Reveal Animation
-@mixin revealAnimation($animationDelay: $delay) {
+@mixin revealAnimation($animationDelay: $order) {
   animation-duration: $duration;
   animation-name: reveal;
   animation-fill-mode: forwards;

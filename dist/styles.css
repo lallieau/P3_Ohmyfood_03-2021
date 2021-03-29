@@ -552,6 +552,7 @@ p {
 .menu-category-card__detail {
   padding: 10px;
   line-height: 1.5rem;
+  width: 80%;
   transition: width 500ms;
 }
 .menu-category-card__detail p,
