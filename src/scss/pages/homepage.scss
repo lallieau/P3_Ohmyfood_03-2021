@@ -1,6 +1,10 @@
 @use '../utils/variables' as *;
 @use '../utils/mixins' as *;
 
+.logo {
+  font-family: $title-family;
+  font-size: $tall-title-size;
+}
 // Layout Mobile First
 .location {
   display: flex;

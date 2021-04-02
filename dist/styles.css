@@ -711,6 +711,11 @@ header .header-logo {
   width: 150px;
 }
 
+.logo {
+  font-family: "Shrikhand", cursive;
+  font-size: 1.5rem;
+}
+
 .location {
   display: flex;
   justify-content: center;
