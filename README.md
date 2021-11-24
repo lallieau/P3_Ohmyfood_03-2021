@@ -1,43 +1,17 @@
-# Projet 3 Ohmyfood (OpenClassrooms)
+# P3_Ohmyfood_03-2021
 
-Début du projet : mars 2021
+Openclassrooms - Parcours développeur Front-end
 
-Fin du projet : mars 2021
+## Projet 3 : Dynamisez une page web avec des animations CSS
 
-## Présentation du projet
+Lien pour visualiser le projet: https://lallieau.github.io/P3_Ohmyfood_03-2021/
 
-Bienvenue dans mon deuxième projet de la formation développeur front-end !
-Ceci est un exercice d'intégration d'une maquette mobile responsive sous la forme d'une application de réservation de plat de restauration.
-L'objectif principal de ce projet est d'apprendre à créer des animations en css.
+Scénario : 
+Ohmyfood! est une jeune startup qui voudrait s'imposer sur le marché de la restauration. 
 
-Lien pour visualiser le projet:
-https://lallieau.github.io/P3_Ohmyfood/
+L'objectif est de développer un site 100% mobile qui répertorie les menus de restaurants gastronomiques. En plus des systèmes classiques de réservation, les clients pourront composer le menu de leur repas pour que les plats soient prêts à leur arrivée. Finis, les temps d'attente au restaurant !
 
-Contenu :
+Mission : 
+* Intégration des maquettes avec HTML et Sans. Utiliser des animations CSS.
 
-Vous retrouverez dans ce projet une home page présentant l'application et une liste de différents restaurants partenaires.
-Ces restaurants sont présentés sous forme de carte.
-Ensuite on retrouvera à chaque restaurants une page dédiée avec le menu du restaurant.
-
-Languages utilisés:
-
-- Html, Sass
-
-## Pré-requis
-
-Ce qu'il est requis pour commencer :
-
-- Un IDE (ex : VS Code)
-
-## Installation
-
-Les étapes pour installer :
-
-- Cloner le projet sur votre machine.
-  https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository
-
-## Maquettes
-
-- Mobile :
-
-<img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/accueil.png" alt="Home" width="200"/> <img src="https://github.com/lallieau/P3_Ohmyfood/blob/main/src/assets/images/maquettes/menu.png" alt="Home" width="200"/>
+Langues : HTML et Sass
